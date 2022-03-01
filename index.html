@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Mỹ Phẩm</title>
+    <link rel="icon" href="./img/icon/icon-new-36x36.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--  BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- FRONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- MARQUEE -->
+            <div class="container container-first" style="height: 17px;">
+                <marquee>
+                    <span>Chào mừng bạn đã đến với website của Nguyễn Văn Chiến</span>
+                    <span>Liên hệ Email: </span>
+                    <a href="">nvchien.20it2@vku.udn.vn</a>
+                    <span>Liên hệ SĐT: </span>
+                    <a href="">0941.445.782</a>
+                </marquee>
+            </div>
+            <!-- LOGO - SEARCH - LOGIN -->
+            <div class="container container-second">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div id="logo">
+                            <!-- <a href="">
+                                <i class="fas fa-wine-bottle position-absolute"></i>
+                                <i class="fas fa-wine-bottle"></i>
+                            </a> -->
+                            <a href="">
+                                <h3>SHOP MỸ PHẨM</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 header-search">
+                        <div class="search">
+                            <div class="search-input">
+                                <input id="timkiem" type="search" value="" placeholder="Search">
+                            </div>
+                            <div class="search-button">
+                                <button type="submit" class="fas fa-search"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 login">
+                        <a href="./login.html">Đăng nhập / Đăng ký</a>
+                        <a href="">Giỏ hàng / 0đ <i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--  DANH MUC -->
+            <div class="container container-third">
+                <div class="row">
+                    <div class="col-2 menu-header">
+                        <div class="menu-icon">
+                            <label for="nav-toggle">
+                                <span class="fas fa-bars"></span>
+                                <span>DANH MỤC</span>
+                            </label>
+                            <input type="checkbox" name="" id="nav-toggle" style="display:none;">
+                            <div class="area-menu">
+                                <ul>
+                                    <li><img src="./img/icon/icon-new-36x36.png" alt=""><a href="">Khuyến mại mới</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-1-24x24.png" alt=""><a href="">Nước Hoa Nam</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-24x24.png" alt=""><a href="">Nước Hoa Nữ</a></li>
+                                    <li><img src="./img/icon/perfume-bottle-with-sprayer-24x24.png" alt=""><a
+                                            href="">Nước
+                                            Hoa Unisex</a></li>
+                                    <li><img src="./img/icon/perfume-2-24x24.png" alt=""><a href="">Nước Hoa Bộ</a></li>
+                                    <li><img src="./img/icon/parfum-elegant-vintage-bottle-black-silhouette-shape-24x24.png"
+                                            alt=""><a href="">Hương Nước Hoa</a></li>
+                                    <li><img src="./img/icon/roll-on-deodorant-24x24.png" alt=""><a href="">Lăn Khử
+                                            Mùi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 menu-content">
+                        <ul>
+                            <li><a href="./index.html" class="title-active">TRANG CHỦ</a></li>
+                            <li><a href="/gioithieu.html">GIỚI THIỆU</a></li>
+                            <li><a href="./sanpham.html">CỬA HÀNG</a></li>
+                            <li><a href="">TIN TỨC</a></li>
+                            <li><a href="./lienhe.html">LIÊN HỆ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content-main">
+            <!-- SLIDER HEADER -->
+            <div class="container main-header">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <!-- SILDER LEFT -->
+                        <div class="area-bottom">
+                            <div class="col-inner1">
+                                <p>-10%</p>
+                            </div>
+                            <div class="col-inner2">
+                                <a href="./sanpham/"> <img src="./img/chai1.jpg" alt="" width="50%"></a>
+                            </div>
+                            <div class="col-inner3">
+                                <p>Hương Nước Hoa </p>
+                                <a href="">Nước hoa cao cấp Chanel</a>
+                                <span>1,850,000 ₫</span>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid rgb(223, 223, 223) "></div>
+                        <div class="area-bottom">
+                            <div class="col-inner1">
+                                <p>-30%</p>
+                            </div>
+                            <div class="col-inner2">
+                                <a href="./sanpham/"><img src="./img/chai2.jpg" alt="" width="50%"></a>
+                            </div>
+                            <div class="col-inner3">
+                                <p>Hương Nước Hoa </p>
+                                <a href="">Elie Saab Le Parfum </a>
+                                <span>1,850,000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SILDER CENTER -->
+                    <div class="col-sm-8">
+                        <div class="area-img">
+                            <div style="width:100%; margin:0px auto; overflow:hidden;">
+                                <div id="slideshow"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- SILDER RIGHT -->
+                    <div class="col-sm-2">
+                        <div class="area-bottom">
+                            <div class="col-inner1">
+                                <p>-38%</p>
+                            </div>
+                            <div class="col-inner2">
+                                <a href="./sanpham/"> <img src="./img/chai3.png" alt="" width="50%"></a>
+                            </div>
+                            <div class="col-inner3">
+                                <p>Hương Nước Hoa </p>
+                                <a href="">Nước hoa cao cấp Chanel</a>
+                                <span>1,850,000 ₫</span>
+                            </div>
+                        </div>
+                        <div style="border-top: 1px solid rgb(223, 223, 223) "></div>
+                        <div class="area-bottom">
+                            <div class="col-inner1">
+                                <p>-9%</p>
+                            </div>
+                            <div class="col-inner2">
+                                <a href="./sanpham/"><img src="./img/chai4.jpg" alt="" width="50%"></a>
+                            </div>
+                            <div class="col-inner3">
+                                <p>Hương Nước Hoa </p>
+                                <a href="">Edition Fueilles women</a>
+                                <span>1,850,000 ₫</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- THREE SILDER -->
+            <div class="container main-banner">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="item"><img src="./img/banner-index-1.png" width="100%" alt=""></div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="item"><img src="./img/banner-index-2.png" width="100%" alt=""></div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="item"><img src="./img/banner-index-3.png" width="100%" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <!-- LIST COMPANY -->
+            <div class="producer">
+                <div class="container producer-color">
+                    <div class="row">
+                        <div class="col">
+                            <a href=""><img src="./img/perfume-logo.jpg" alt="" width="50%"></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./img/perfume.png" alt="" width="50%"></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./img/thiet-ke-logo-nuoc-hoa-bee-design-02.jpg" alt="" width="50%"></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./img/charme.png" alt="" width="50%"></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./img/chanel-luxshoppping1-1.png" alt="" width="50%"></a>
+                        </div>
+                        <div class="col">
+                            <a href=""><img src="./img/a4a917a7d97b685936e2f2af25a1e66d.png" alt="" width="50%"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  VIDEO - TOP -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="play-video">
+                            <video src="./video/aaaaa.mp4" width="100%" autoplay loop muted> </video>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="video-content">
+                            <div class="top-sanpham">
+                                <div class="top-sanpham-header">
+                                    <h4>Top những sản phẩm bán chạy nhất hiện nay</h4>
+                                </div>
+                                <div class="top-sanpham-noidung">
+                                    <img name="image" src="./img/top1.png" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ___________________________SHOP 1_____________________________________ -->
+            <div class="container section-content" style="margin-top: 30px">
+                <div class="row">
+                    <!-- ẨN -->
+                    <div class="display-none">
+                        <div class="sc-h4-2 " style="background: #FF3377;">
+                            <p class="h4 pt-2 text-white">Nước hoa Jo Malone Floral</p>
+                        </div>
+                    </div>
+                    <!-- LIST HEADE -LEFT -->
+                    <div class="col col-lg-2" style="padding: 0;">
+                        <div class="section-content-header">
+                            <div class="sc-h4-1" style="background: #DD2F6E;">
+                                <button>F1</button>
+                            </div>
+                            <div class="sc-h4-2" style="background: #FF3377;">
+                                <button>Hãng Chanel</button>
+                            </div>
+                        </div>
+                        <div class="section-content-main">
+                            <div class="scm-ul">
+                                <ul>
+                                    <li><img src="./img/icon/icon-new-36x36.png" alt=""><a href="">Khuyến mại mới</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-1-24x24.png" alt=""><a href="">Nước Hoa Nam</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-24x24.png" alt=""><a href="">Nước Hoa Nữ</a></li>
+                                    <li><img src="./img/icon/perfume-bottle-with-sprayer-24x24.png" alt=""><a
+                                            href="">Nước
+                                            Hoa
+                                            Unisex</a></li>
+                                    <li><img src="./img/icon/perfume-2-24x24.png" alt=""><a href="">Nước Hoa Bộ</a></li>
+                                    <li><img src="./img/icon/parfum-elegant-vintage-bottle-black-silhouette-shape-24x24.png"
+                                            alt=""><a href="">Hương Nước Hoa</a></li>
+                                    <li><img src="./img/icon/roll-on-deodorant-24x24.png" alt=""><a href="">Lăn Khử
+                                            Mùi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="input-checkbox">
+                                <h4>Lọc theo giá</h4>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio1">
+                                    <label for="radio1">
+                                        <p>Dưới 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio2">
+                                    <label for="radio2">
+                                        <p>Trên 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio3">
+                                    <label for="radio3">
+                                        <p>Trên 2,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="scm-buttom" style="background: #FF3377;">
+                                <button>XEM TẤT CẢ <i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IMG_CENTER -->
+                    <div class="col-lg-3">
+                        <img src="./img/shop1.png" alt="" width="100%">
+                    </div>
+                    <!-- CONTENT - PRODUCT -->
+                    <div class="col-lg-7">
+                        <div class="sanpham">
+                            <div class="grid-container1">
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-52%</p>
+                                    </div>
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel2.png" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Sen</p>
+                                        <a href="./sanpham/">Chance Eau Tendre Eau</a>
+                                        <br>
+                                        <span>2,456,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel1.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Hồng</p>
+                                        <a href="./sanpham/">Pure XS For Her Paco</a> <br>
+                                        <span>3,151,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-16%</p>
+                                    </div>
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel3.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Cẩm Ly </p>
+                                        <a href="./sanpham/">Chance Eau Fraiche Chanel </a>
+                                        <span>7,323,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel4.png" alt="" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lan </p>
+                                        <a href="./sanpham/">Mademoiselle intense</a> <br>
+                                        <span>4,543,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-35%</p>
+                                    </div>
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel2.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hướng Dương </p>
+                                        <a href="">Elie Saab Le Parfum Edition </a>
+                                        <span>1,850,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chai1.jpg" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lệ</p>
+                                        <a href="">Pure XS For Her Paco</a>
+                                        <span>8,436,354 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ___________________________SHOP 2_____________________________________ -->
+            <div class="container section-content" style="margin-top: 30px">
+                <div class="row">
+                    <!-- ẨN -->
+                    <div class="display-none">
+                        <div class="sc-h4-2 " style="background: #FF3377;">
+                            <p class="h4 pt-2 text-white">Nước hoa Floral</p>
+                        </div>
+                    </div>
+                    <!-- LIST HEADE -LEFT -->
+                    <div class="col col-lg-2" style="padding: 0;">
+                        <div class="section-content-header">
+                            <div class="sc-h4-1" style="background: #8b4777;">
+                                <button>F2</button>
+                            </div>
+                            <div class="sc-h4-2" style="background: #c945b9;">
+                                <button>Hãng Charme</button>
+                            </div>
+                        </div>
+                        <div class="section-content-main">
+                            <div class="scm-ul">
+                                <ul>
+                                    <li><img src="./img/icon/icon-new-36x36.png" alt=""><a href="">Khuyến mại mới</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-1-24x24.png" alt=""><a href="">Nước Hoa Nam</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-24x24.png" alt=""><a href="">Nước Hoa Nữ</a></li>
+                                    <li><img src="./img/icon/perfume-bottle-with-sprayer-24x24.png" alt=""><a
+                                            href="">Nước
+                                            Hoa
+                                            Unisex</a></li>
+                                    <li><img src="./img/icon/perfume-2-24x24.png" alt=""><a href="">Nước Hoa Bộ</a></li>
+                                    <li><img src="./img/icon/parfum-elegant-vintage-bottle-black-silhouette-shape-24x24.png"
+                                            alt=""><a href="">Hương Nước Hoa</a></li>
+                                    <li><img src="./img/icon/roll-on-deodorant-24x24.png" alt=""><a href="">Lăn Khử
+                                            Mùi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="input-checkbox">
+                                <h4>Lọc theo giá</h4>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio4">
+                                    <label for="radio4">
+                                        <p>Dưới 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio5">
+                                    <label for="radio5">
+                                        <p>Trên 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio6">
+                                    <label for="radio6">
+                                        <p>Trên 2,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="scm-buttom" style="background: #c945b9;">
+                                <button>XEM TẤT CẢ <i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IMG_CENTER -->
+                    <div class="col-lg-3">
+                        <img src="./img/shop2.png" alt="" width="100%">
+                    </div>
+                    <!-- CONTENT - PRODUCT -->
+                    <div class="col-lg-7">
+                        <div class="sanpham">
+                            <div class="grid-container1">
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-16%</p>
+                                    </div>
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel2.png" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Sen</p>
+                                        <a href="./sanpham/">Chance Eau Tendre Eau</a>
+                                        <br>
+                                        <span>2,456,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel1.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Hồng</p>
+                                        <a href="">Pure XS For Her Paco</a> <br>
+                                        <span>3,151,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel3.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Cẩm Ly </p>
+                                        <a href="">Chance Eau Fraiche Chanel </a>
+                                        <span>7,323,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel4.png" alt="" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lan </p>
+                                        <a href="./sanpham/">Mademoiselle intense</a> <br>
+                                        <span>4,543,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-38%</p>
+                                    </div>
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel2.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hướng Dương </p>
+                                        <a href="./sanpham/">Elie Saab Le Parfum Edition </a>
+                                        <span>1,850,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chai1.jpg" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lệ</p>
+                                        <a href="./sanpham/">Pure XS For Her Paco</a>
+                                        <span>8,436,354 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ___________________________SHOP 3_____________________________________ -->
+            <div class="container section-content" style="margin-top: 30px">
+                <div class="row">
+                    <!-- ẨN -->
+                    <div class="display-none">
+                        <div class="sc-h4-2 " style="background: #FF3377;">
+                            <p class="h4 pt-2 text-white">Nước hoa Gucci Chypre</p>
+                        </div>
+                    </div>
+                    <!-- LIST HEADE -LEFT -->
+                    <div class="col col-lg-2" style="padding: 0;">
+                        <div class="section-content-header">
+                            <div class="sc-h4-1" style="background: #222f85;">
+                                <button>F3</button>
+                            </div>
+                            <div class="sc-h4-2" style="background: #2c70af;">
+                                <button>Hãng Chanel</button>
+                            </div>
+                        </div>
+                        <div class="section-content-main">
+                            <div class="scm-ul">
+                                <ul>
+                                    <li><img src="./img/icon/icon-new-36x36.png" alt=""><a href="">Khuyến mại mới</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-1-24x24.png" alt=""><a href="">Nước Hoa Nam</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-24x24.png" alt=""><a href="">Nước Hoa Nữ</a></li>
+                                    <li><img src="./img/icon/perfume-bottle-with-sprayer-24x24.png" alt=""><a
+                                            href="">Nước
+                                            Hoa
+                                            Unisex</a></li>
+                                    <li><img src="./img/icon/perfume-2-24x24.png" alt=""><a href="">Nước Hoa Bộ</a></li>
+                                    <li><img src="./img/icon/parfum-elegant-vintage-bottle-black-silhouette-shape-24x24.png"
+                                            alt=""><a href="">Hương Nước Hoa</a></li>
+                                    <li><img src="./img/icon/roll-on-deodorant-24x24.png" alt=""><a href="">Lăn Khử
+                                            Mùi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="input-checkbox">
+                                <h4>Lọc theo giá</h4>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio7">
+                                    <label for="radio7">
+                                        <p>Dưới 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio8">
+                                    <label for="radio8">
+                                        <p>Trên 1,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                                <div class="check1">
+                                    <input type="radio" name="sex" id="radio9">
+                                    <label for="radio9">
+                                        <p>Trên 2,000,000 VNĐ</p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="scm-buttom" style="background: #2c70af;">
+                                <button>XEM TẤT CẢ <i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- IMG_CENTER -->
+                    <div class="col-lg-3">
+                        <img src="./img/shop3.png" alt="" width="100%">
+                    </div>
+                    <!-- CONTENT - PRODUCT -->
+                    <div class="col-lg-7">
+                        <div class="sanpham">
+                            <div class="grid-container1">
+                                <div class="item">
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel2.png" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Sen</p>
+                                        <a href="./sanpham/">Chance Eau Tendre Eau</a>
+                                        <br>
+                                        <span>2,456,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel1.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Hồng</p>
+                                        <a href="./sanpham/">Pure XS For Her Paco</a> <br>
+                                        <span>3,151,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-16%</p>
+                                    </div>
+                                    <a href="./sanpham/"> <img src="./img/chanel/chanel3.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Cẩm Ly </p>
+                                        <a href="./sanpham/">Chance Eau Fraiche Chanel </a>
+                                        <span>7,323,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel4.png" alt="" width="70%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lan </p>
+                                        <a href="./sanpham/">Mademoiselle intense</a> <br>
+                                        <span>4,543,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-inner1">
+                                        <p>-16%</p>
+                                    </div>
+                                    <a href="./sanpham/"><img src="./img/chanel/chanel2.png" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hướng Dương </p>
+                                        <a href="./sanpham/">Elie Saab Le Parfum Edition </a>
+                                        <span>1,850,000 ₫</span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <a href="./sanpham/"> <img src="./img/chai1.jpg" alt="" width="80%"></a>
+                                    <div class="gc-it-p">
+                                        <p>Hương Hoa Lệ</p>
+                                        <a href="./sanpham/">Pure XS For Her Paco</a>
+                                        <span>8,436,354 ₫</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- FOOTER FIRST -->
+        <div class="footer-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>MIỄN PHÍ VẬN CHUYỂN</p>
+                            <p>Cho đơn đặt hàng trên 300.000 Đ</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-undo-alt"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>HOÀN 100% TIỀN MUA HÀNG</p>
+                            <p>Trong vòng 7 ngày</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>GIAO HÀNG NHANH CHÓNG</p>
+                            <p>Sau 2h kể từ khi xác nhận</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>HOTLINE - HỖ TRỢ TRỰC TUYẾN</p>
+                            <p>0708050907 - 0933877521</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER CONTENT -->
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>THÔNG TIN CỬA HÀNG</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <p class="footer_system_store">
+                            <strong>Thừa Thiên Huế:</strong> Hương Chữ, Hương Trà<br>
+                            <a href="">0708050907</a> - <a href="">0933877521</a><br>
+                            <strong>Quảng Trị</strong> Cam Lộ, Cam Thành<br>
+                            <a href="">0708050907</a> - <a href="">0933877521</a><br>
+                            <strong>Đà Nẵng</strong> 115 Nguyễn Tất Thành<br>
+                            <a href="">0708050907</a>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <span>VỊ TRÍ CƠ SỞ CHÍNH</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.6776244892208!2d107.51576181416434!3d16.491853432355153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a7b48db7bee9%3A0xc8f843dd3b210eee!2sQuang%20IT!5e0!3m2!1svi!2s!4v1622871469633!5m2!1svi!2s"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="col">
+                        <span>KẾT NỐI VỚI CHÚNG TÔI</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <div class="icon-footer">
+                            <ul>
+                                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER FINAL -->
+        <div class="footer-final">
+            <span>Copyright © 2021 NguyenVanChien</span>
+        </div>
+    </footer>
+
+
+    <!-- <iframe src="https://www.nhaccuatui.com/mh/background/YKrKCPS2S4rS" width="1" height="1" frameborder="0"
+        allowfullscreen allow="autoplay"></iframe> -->
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+
+    <script src="javascript/superplaceholder.js"></script>
+    <script src="/javascript/slider.js"></script>
+    <script src="./javascript/main.js"></script>
+    <script>
+        //slider img banner
+        var images = new Array("./img/banner1.png", "./img/banner2.png",
+            "./img/banner3.png");
+        var index = 0;
+        var w = 745;
+        var h = 308;
+        var lw = w * images.length;
+        function makeslide(id, src) {
+            $(id).width(lw);
+            $(id).height(h);
+            var s = "";
+            for (i = 0; i < images.length; i++)
+                s += "<div style='float:left; width:" + w + "px; height:" + h + "px; background-image: url(" + src + images[i] + "); ' ></div > ";
+            $(id).html(s);
+            changeslide(id);
+        }
+        function changeslide(id) {
+            if (index >= images.length) {
+                index = 1;
+                $(id).animate({ opacity: .5 }, 400);
+                $(id).animate({ marginLeft: '0px' }, 800);
+            }
+            else {
+                $(id).animate({ opacity: .5 }, 400);
+                $(id).animate({ marginLeft: '-' + (index * w) + 'px' }, 800);
+                index++;
+            }
+            $(id).animate({ opacity: 1 }, 400);
+            setTimeout('changeslide("' + id + '")', 8000);
+        }
+        $(document).ready(function (e) {
+            makeslide('#slideshow', "");
+        });
+    </script>
+</body>
+
+</html>

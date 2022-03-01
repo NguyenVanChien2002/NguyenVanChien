@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Nước Hoa</title>
+    <link rel="icon" href="./img/icon/icon-new-36x36.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/introduce.css">
+    <link rel="stylesheet" href="./css/lienhe.css">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <!-- FRONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--  JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <!-- MARQUEE -->
+            <div class="container container-first" style="height: 17px;">
+                <marquee>
+                    <span>Chào mừng bạn đã đến với website của Nguyễn Văn Chiến</span>
+                    <span>Liên hệ Email: </span>
+                    <a href="">nvchien.20it2@vku.udn.vn</a>
+                    <span>Liên hệ SĐT: </span>
+                    <a href="">0941.445.782</a>
+                </marquee>
+            </div>
+            <!-- LOGO - SEARCH - LOGIN -->
+            <div class="container container-second">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div id="logo">
+                            <a href="./index.html">
+                                <i class="fas fa-wine-bottle position-absolute"></i>
+                                <i class="fas fa-wine-bottle"></i>
+                            </a>
+                            <a href="./index.html">
+                                <h3>SHOP NƯỚC HOA</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 header-search">
+                        <div class="search">
+                            <div class="search-input">
+                                <input id="timkiem" type="search" value="" placeholder="Search">
+                            </div>
+                            <div class="search-button">
+                                <button type="submit" class="fas fa-search"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 login text-white">
+                        <a href="./login.html">Đăng nhập / Đăng ký</a>
+                        <a type="button" data-toggle="modal" data-target="#exampleModalShort">Giỏ hàng / 0đ <i
+                                class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--  DANH MUC  CATEGORY-->
+            <div class="container container-third">
+                <div class="row">
+                    <div class="col-2 menu-header">
+                        <div class="menu-icon">
+                            <label for="nav-toggle">
+                                <span class="fas fa-bars"></span>
+                                <span>DANH MỤC</span>
+                            </label>
+                            <input type="checkbox" name="" id="nav-toggle" style="display:none;">
+                            <div class="area-menu">
+                                <ul>
+                                    <li><img src="./img/icon/icon-new-36x36.png" alt=""><a href="">Khuyến mại mới</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-1-24x24.png" alt=""><a href="">Nước Hoa Nam</a>
+                                    </li>
+                                    <li><img src="./img/icon/perfume-24x24.png" alt=""><a href="">Nước Hoa Nữ</a></li>
+                                    <li><img src="./img/icon/perfume-bottle-with-sprayer-24x24.png" alt=""><a
+                                            href="">Nước
+                                            Hoa Unisex</a></li>
+                                    <li><img src="./img/icon/perfume-2-24x24.png" alt=""><a href="">Nước Hoa Bộ</a></li>
+                                    <li><img src="./img/icon/parfum-elegant-vintage-bottle-black-silhouette-shape-24x24.png"
+                                            alt=""><a href="">Hương Nước Hoa</a></li>
+                                    <li><img src="./img/icon/roll-on-deodorant-24x24.png" alt=""><a href="">Lăn Khử
+                                            Mùi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 menu-content">
+                        <ul>
+                            <li><a href="./index.html">TRANG CHỦ</a></li>
+                            <li><a href="./gioithieu.html">GIỚI THIỆU</a></li>
+                            <li><a href="./sanpham.html">CỬA HÀNG</a></li>
+                            <li><a href="">TIN TỨC</a></li>
+                            <li><a href="./lienhe.html" class="title-active">LIÊN HỆ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Thêm giỏ hàng thì hiển thị-->
+        <div class="modal" id="exampleModalShort" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title h3" id="exampleModalShortLabel">Thông tin sản phẩm</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <p>Hiện tại bạn chưa có sản phẩm nào.</p>
+                        <span class="h4">Nhan tay chọn lựa cho sản phẩm cho mình đi nào.</span>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-close-white" data-dismiss="modal">Đóng</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content-introduce content-lienhe h-100 img-background pb-5">
+            <!--  TITLE CALL -->
+            <div class="title-introduce pb-5">
+                <b></b>
+                <span>LIÊN HỆ VỚI CHÚNG TÔI</span>
+                <b></b>
+            </div>
+            <!--  TITLE INTRODUCE -->
+            <div class=" w-50 p-xl-5 m-auto">
+                <form>
+                    <div class="form-group ">
+                        <input type="text" class="form-control" placeholder="Tên của bạn">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email của bạn">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email của bạn">
+                    </div>
+                    <div class="form-outline form-group">
+                        <textarea class="form-control" id="textAreaExample1" rows="4" placeholder="Nội dung"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="form-control text-light" style="background-color: #FF4081;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- FOOTER FIRST -->
+        <div class="footer-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>MIỄN PHÍ VẬN CHUYỂN</p>
+                            <p>Cho đơn đặt hàng trên 300.000 Đ</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-undo-alt"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>HOÀN 100% TIỀN MUA HÀNG</p>
+                            <p>Trong vòng 7 ngày</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>GIAO HÀNG NHANH CHÓNG</p>
+                            <p>Sau 2h kể từ khi xác nhận</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-hd-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="footer-hd-content">
+                            <p>HOTLINE - HỖ TRỢ TRỰC TUYẾN</p>
+                            <p>0708050907 - 0933877521</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER CONTENT -->
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <span>THÔNG TIN CỬA HÀNG</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <p class="footer_system_store">
+                            <strong>Thừa Thiên Huế:</strong> Hương Chữ, Hương Trà<br>
+                            <a href="">0708050907</a> - <a href="">0933877521</a><br>
+                            <strong>Quảng Trị</strong> Cam Lộ, Cam Thành<br>
+                            <a href="">0708050907</a> - <a href="">0933877521</a><br>
+                            <strong>Đà Nẵng</strong> 115 Nguyễn Tất Thành<br>
+                            <a href="">0708050907</a>
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <span>VỊ TRÍ CƠ SỞ CHÍNH</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.6776244892208!2d107.51576181416434!3d16.491853432355153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a7b48db7bee9%3A0xc8f843dd3b210eee!2sQuang%20IT!5e0!3m2!1svi!2s!4v1622871469633!5m2!1svi!2s"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="col">
+                        <span>KẾT NỐI VỚI CHÚNG TÔI</span>
+                        <div
+                            style="width: 40px; border: 1px solid rgb(218, 218, 218); border-radius: 50px; margin: 10px 0px">
+                        </div>
+                        <div class="icon-footer">
+                            <ul>
+                                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER FINAL -->
+        <div class="footer-final">
+            <span>Copyright © 2021 NguyenVanChien</span>
+        </div>
+    </footer>
+
+
+    <script src="javascript/superplaceholder.js"></script>
+    <script src="/javascript/slider.js"></script>
+    <!--  JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script>
+        // Input search
+        superplaceholder({
+            el: timkiem,
+            sentences: ['Tìm kiếm sản phẩm của bạn', 'Nước hoa dành cho Nam', 'Nước hoa dành cho Nữ'],
+            options: {
+                letterDelay: 80,
+                loop: true,
+                startOnFocus: false
+            }
+        })
+    </script>
+</body>
+
+</html>
